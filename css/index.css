@@ -81,6 +81,7 @@ header {
     display: flex;
     justify-content: baseline;
     justify-content: space-between;
+    
 }
 
 header nav {
@@ -116,12 +117,14 @@ header nav a:hover {
 	align-items: center; 
 }
 
-.heading-a{
-	font-size: 8.2rem;
+.heading-a p{
+    border: 2px solid black;
+    font-size: 6.2rem;
+    max-width: 50%;
+    margin: 0%;
 	display: flex;
-	justify-content: center;
 	flex-direction: column;
-	align-content: center;
+	align-items: center;
 }
 
 .button1{
@@ -129,11 +132,13 @@ header nav a:hover {
 	color: black;
 	border: 2px solid black;
 	width: 50%;
-	display: inline-block;
 }
 
-.heading .codeimg{
+.heading .codeimg img{
+    border: 2px solid black;
     display: flex;
+    max-width: 50%;
+    
 }
 
 .section-1{
@@ -221,6 +226,10 @@ header nav a:hover {
     header nav a:hover {
         text-decoration: underline;
         color: black;
+    }
+
+    .heading .codeimg{
+        display: none;
     }
 
 }
