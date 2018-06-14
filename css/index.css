@@ -77,7 +77,6 @@ h1, h2, h3, h4, h5 {
 /*--------------Nav/Logo---------------*/
 
 header {
-    border: 2px solid black;
     display: flex;
     justify-content: baseline;
     justify-content: space-between;
@@ -86,7 +85,6 @@ header {
 
 header nav {
     margin: 0% 5% 0% 0%;
-    border: 2px solid black;
     width: 80%;
     display: flex;
     justify-content: space-between;
@@ -110,14 +108,12 @@ header nav a:hover {
 /*--------------Home---------------*/
 
 .heading{
-    border: 5px solid orange;
     display: flex;
     max-width: 100%;
     margin: 2%;
 }
 
 .heading-a{
-    border: 2px solid black;
     max-width: 50%;
 	display: flex;
 	flex-direction: column;
@@ -126,7 +122,6 @@ header nav a:hover {
 }
 
 .heading-a p{
-    border: 2px solid black;
     font-size: 6.2rem;
 	display: flex;
 	flex-direction: column;
@@ -141,7 +136,6 @@ header nav a:hover {
 }
 
 .heading .codeimg{
-    border: 2px solid black;
     display: flex;
     max-width: 50%;   
     margin: 2%; 
@@ -205,13 +199,11 @@ header nav a:hover {
 @media(max-width: 768px) {
 
     .container{
-        background: lightgray;
         height: 600px;
         margin: 0 auto;
     }
 
     header {
-        border: 2px solid black;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -220,7 +212,6 @@ header nav a:hover {
     
     header nav {
         margin: 0% 5% 0% 0%;
-        border: 2px solid black;
         width: 80%;
         display: flex;
         justify-content: space-between;
@@ -239,19 +230,23 @@ header nav a:hover {
     }
 
     .heading{
-        border: 2px solid black;
         display: flex;
         justify-content: center;
     }
 
     .heading-a p{
-        border: 2px solid black;
-        font-size: 6.2rem;
+        font-size: 4.2rem;
         max-width: 100%;
         margin: 0%;
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .button1{
+        background-color: white;
+        color: black;
+        max-width: 50%;
     }
 
     .heading .codeimg{
@@ -261,12 +256,10 @@ header nav a:hover {
 
 @media(max-width: 400px) {
     .container{
-        background: orange;
         height: 600px;
     }
 
     header {
-        border: 2px solid black;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -274,7 +267,6 @@ header nav a:hover {
     }
     
     header nav {
-        border: 2px solid black;
         max-width: 100%;
         margin: 0 auto;
         display: flex;
@@ -284,7 +276,6 @@ header nav a:hover {
     }
     
     header nav a {
-        border: 2px solid black;
         width: 100%;
         text-decoration: none;
         color: grey;
