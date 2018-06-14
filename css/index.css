@@ -109,16 +109,25 @@ header nav a:hover {
 /*--------------Home---------------*/
 /*--------------Home---------------*/
 
-.container .heading{
+.heading{
     border: 5px solid orange;
     display: flex;
     max-width: 100%;
+    margin: 2%;
+}
+
+.heading-a{
+    border: 2px solid black;
+    max-width: 50%;
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+    margin: 2%;
 }
 
 .heading-a p{
     border: 2px solid black;
     font-size: 6.2rem;
-    max-width: 50%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -134,13 +143,15 @@ header nav a:hover {
 .heading .codeimg{
     border: 2px solid black;
     display: flex;
-    max-width: 50%;    
+    max-width: 50%;   
+    margin: 2%; 
 }
 
 .section-1{
 	display: flex; 
 	justify-content: space-between;
-	padding: 1%;
+    padding: 1%;
+    border-top: 1px solid black;
 }
 
 .section-1a{
@@ -150,7 +161,8 @@ header nav a:hover {
 .section-2{
 	display: flex; 
 	justify-content: space-between;
-	padding: 1%;
+    padding: 1%;
+    border-bottom: 1px solid black;
 }
 
 .section-2a{
