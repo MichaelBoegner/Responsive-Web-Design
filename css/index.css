@@ -112,8 +112,8 @@ header nav a:hover {
 /*--------------Home---------------*/
 
 .heading{
+    border: 2px solid black;
 	display: flex;
-	justify-content: space-around;
 	align-items: center; 
 }
 
@@ -169,8 +169,10 @@ header nav a:hover {
 }
 
 .section-3 div{
-	width: 19.88%;
-	padding: 1%;
+	display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 1%;
 }
 
 /*--------------Footing---------------*/
@@ -228,10 +230,25 @@ header nav a:hover {
         color: black;
     }
 
+    .heading{
+        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+    }
+
+    .heading-a p{
+        border: 2px solid black;
+        font-size: 6.2rem;
+        max-width: 100%;
+        margin: 0%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .heading .codeimg{
         display: none;
     }
-
 }
 
 @media(max-width: 400px) {
