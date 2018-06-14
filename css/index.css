@@ -277,7 +277,10 @@ header nav a:hover {
     
     header nav a {
         width: 100%;
+        padding: 10px;
         text-decoration: none;
+        font-size: 1.4rem;
+        border-bottom: 1px solid grey;
         color: grey;
         display: flex;
         max-width: 100%;
@@ -289,6 +292,13 @@ header nav a:hover {
     header nav a:hover {
         text-decoration: underline;
         color: black;
+    }
+
+    header .logo {
+        border-bottom: 1px solid grey;
+        display: flex;
+        max-width: 100%;
+        padding-bottom: 10px;
     }
 
 }
